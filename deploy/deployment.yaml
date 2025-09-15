@@ -34,8 +34,8 @@ kind: Service
 metadata:
   name: java-app-service
 spec:
-  type: LoadBalancer
-  #type: ClusterIP
+  #type: LoadBalancer
+  type: ClusterIP
   ports:
     - port: 8080
       protocol: TCP
